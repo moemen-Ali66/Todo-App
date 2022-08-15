@@ -58,7 +58,7 @@ Widget BUILDITEMTASKS(Map model,context)=>Dismissible(
         Row(
           children: [
             CircleAvatar(
-              radius: 40.0,
+              radius: 45.0,
               child: Padding(
                 padding: const EdgeInsets.symmetric(vertical: 10.0),
                 child: Text(model['date'],style: TextStyle(fontSize:20.0,fontWeight: FontWeight.bold ),),
